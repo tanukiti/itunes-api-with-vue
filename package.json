@@ -1,0 +1,39 @@
+{
+  "name": "itunes-api-with-vue",
+  "version": "1.0.0",
+  "description": "itunes-apiを使ってvueの勉強をする",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanukiti/itunes-api-with-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanukiti/itunes-api-with-vue/issues"
+  },
+  "homepage": "https://github.com/tanukiti/itunes-api-with-vue#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "vue": "^2.5.15",
+    "vue-loader": "^14.2.1",
+    "vue-template-compiler": "^2.5.15",
+    "webpack": "^4.1.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.11"
+  }
+}
