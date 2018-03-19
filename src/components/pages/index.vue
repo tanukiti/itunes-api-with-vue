@@ -1,8 +1,8 @@
 <template>
 <section>
-  <h1>hello world</h1>
-  <item text="one"></item>
-
+  <h1>Itunes 検索</h1>
+  <item text="aho"></item>
+  <item msg="hoge"></item>
 </section>
 </template>
 
@@ -20,3 +20,9 @@ export default {
     }
 }
 </script>
+
+<style>
+  h1 {
+    color: blueviolet;
+  }
+</style>
