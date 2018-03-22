@@ -21,7 +21,5 @@ export default {
         float: right;
         font-size: 18px;
     }
-    h1 {
-        color: brown;
-    }
+    
 </style>

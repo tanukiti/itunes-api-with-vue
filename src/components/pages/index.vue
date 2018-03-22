@@ -2,7 +2,6 @@
 <section>
   <h1>Itunes 検索</h1>
   <item text="aho"></item>
-  <item msg="hoge"></item>
 </section>
 </template>
 
