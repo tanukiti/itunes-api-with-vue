@@ -1,17 +1,15 @@
 <template>
 <section>
   <h1>{{text}}</h1>
-  <p>{{msg}}</p>
 </section>
 </template>
 
 <script>
 export default {
-    props: ["text", "msg"],
+    props: ["text"],
     data(){
         return {
-            text: "",
-            msg: ""
+            text: ""
         }
     }
 }
